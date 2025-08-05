@@ -28,7 +28,7 @@ char data_ble_rx[247] = { 0 };
 void setup()
 {
   Serial.begin(115200);
-  while ( !Serial );  // ✅ 等待串口连接（重要！）
+  // while ( !Serial );  // ✅ 等待串口连接（重要！）
 
   Serial.println("=== Central BLE UART Starting ===");
 
