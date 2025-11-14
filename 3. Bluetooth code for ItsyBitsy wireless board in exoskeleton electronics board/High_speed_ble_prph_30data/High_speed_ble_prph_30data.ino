@@ -23,7 +23,7 @@
 */
 
 int rs232_datalength = 32;
-int ble_datalength = 20;
+int ble_datalength = 32;
 char data_rs232_rx[247] = {0};
 char data_ble_rx[247] = {0};
 // Number of packet to sent
