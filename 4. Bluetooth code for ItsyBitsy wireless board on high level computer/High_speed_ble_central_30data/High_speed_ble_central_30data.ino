@@ -20,7 +20,7 @@
 #include <bluefruit.h>
 
 BLEClientUart clientUart; // bleuart client
-int rs232_datalength = 20;
+int rs232_datalength = 32;
 int ble_datalength = 32;
 uint32_t rx_count = 0;
 char data_rs232_rx[247] = { 0 };
