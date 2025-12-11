@@ -2,6 +2,97 @@
 # Bluetooth Pairing for Adafruit Itsy-Bitsy nRF52840 (Central & Peripheral)
 
 This guide describes how to set up **two Adafruit Itsy-Bitsy nRF52840** boards for **high-speed Bluetooth communication** between an exoskeleton (peripheral) and a host PC (central).
+Normalized
+├── AB01
+│   ├── ParticipantDetails
+│   ├── Run
+│   ├── SitStand
+│   ├── Stair
+│   └── Walk
+│       ├── a0x2
+│       ├── a0x5
+│       ├── d0x2
+│       ├── d0x5
+│       ├── s0x8
+│       ├── s1
+│       └── s1x2
+│           ├── i0
+│           │   ├── events
+│           │   │   └── StrideDetails  (4 × N_stride)
+│           │   │
+│           │   ├── forceplates
+│           │   │   ├── CoP            (150 × 3 × stride)
+│           │   │   ├── Force          (150 × 3 × stride)
+│           │   │   └── Moment         (150 × 3 × stride)
+│           │   │
+│           │   ├── jointAngles
+│           │   │   ├── AnkleAngles
+│           │   │   ├── FootProgressAngles
+│           │   │   ├── HipAngles      (150 × 3 × stride)
+│           │   │   ├── KneeAngles
+│           │   │   └── PelvisAngles
+│           │   │
+│           │   ├── jointForces
+│           │   │   ├── AnkleForce
+│           │   │   ├── HipForce
+│           │   │   └── KneeForce
+│           │   │
+│           │   ├── jointMoments
+│           │   │   ├── AnkleMoment
+│           │   │   ├── HipMoment      (150 × 3 × stride)
+│           │   │   └── KneeMoment
+│           │   │
+│           │   ├── jointPowers
+│           │   │   ├── AnklePower
+│           │   │   ├── HipPower       (150 × 3 × stride)
+│           │   │   └── KneePower
+│           │   │
+│           │   └── markers
+│           │       ├── L1M
+│           │       ├── L5M
+│           │       ├── LANK
+│           │       ├── LANKM
+│           │       ├── LASI
+│           │       ├── LGT
+│           │       ├── LHEE
+│           │       ├── LIC
+│           │       ├── LKNE
+│           │       ├── LKNEM
+│           │       ├── LPSI
+│           │       ├── LTHI
+│           │       ├── LTIB
+│           │       ├── LTOE
+│           │       ├── R1M
+│           │       ├── R5M
+│           │       ├── RANK
+│           │       ├── RANKM
+│           │       ├── RASI
+│           │       ├── RGT
+│           │       ├── RHEE
+│           │       ├── RIC
+│           │       ├── RKNE
+│           │       ├── RKNEM
+│           │       ├── RPSI
+│           │       ├── RTHI
+│           │       ├── RTIB
+│           │       └── RTOE
+│           │
+│           ├── i5
+│           ├── i10
+│           ├── in5
+│           └── in10
+│
+├── AB02
+├── AB03
+├── AB04
+├── AB05
+├── AB06
+├── AB07
+├── AB08
+├── AB09
+└── AB10
+
+
 
 ---
 
